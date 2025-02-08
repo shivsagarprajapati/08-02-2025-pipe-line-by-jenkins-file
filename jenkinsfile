@@ -1,0 +1,13 @@
+pipeline
+{
+    agnet any
+    stages{
+        stage('Workaround_By_jenkinsfile')
+        {
+            steps
+            {
+            echo 'this is jenkinsfile'
+            }
+        }
+    }
+}
